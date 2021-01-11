@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ecommerce" />
+        <module name="kakfa_tutorial" />
       </profile>
     </annotationProcessing>
   </component>
