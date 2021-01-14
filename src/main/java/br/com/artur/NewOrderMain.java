@@ -24,7 +24,7 @@ public class NewOrderMain {
                 var email = "Welcome! We are processing your order!";
                 dispatcher.send("ECOMMERCE_SEND_EMAIL", key, email);
             }
-        }catch (Exception){
+        }catch (Exception ex){
             dispatcher.close();
         }
 
